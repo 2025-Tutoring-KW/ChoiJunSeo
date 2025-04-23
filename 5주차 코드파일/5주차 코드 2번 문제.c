@@ -2,12 +2,12 @@
 
 int main() {
 	char str[101];
-    printf("¿µ¹® ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À : ");
+    printf("ì˜ë¬¸ ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
     /*Write Your Code [START]*/
 	gets_s(str);
     /*Write Your Code [END]*/
 
-    printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­ : %s\n", str);
+    printf("ì…ë ¥ëœ ë¬¸ìì—´ : %s\n", str);
     /*Write Your Code [START]*/
     int len;
     for (int i = 0; str[i] != '\0'; i++) {
@@ -20,6 +20,6 @@ int main() {
         len = i;
     }
     /*Write Your Code [END]*/
-    printf("¼öÁ¤µÈ ¹®ÀÚ¿­ : %s", str);
+    printf("ìˆ˜ì •ëœ ë¬¸ìì—´ : %s", str);
     return 0;
 }
