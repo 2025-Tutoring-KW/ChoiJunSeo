@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	char str[101];
+    char str[101];
     printf("영문 문자열을 입력하시오 : ");
     /*Write Your Code [START]*/
-	gets_s(str);
+    gets_s(str);
     /*Write Your Code [END]*/
 
     printf("입력된 문자열 : %s\n", str);
