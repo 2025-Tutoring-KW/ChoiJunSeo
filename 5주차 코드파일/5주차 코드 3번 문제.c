@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int stringCompare(const char str1[], const char* str2) {
-    //³»°¡ ¾´ ÄÚµå
+    //ë‚´ê°€ ì“´ ì½”ë“œ
     char c1, c2;
     int result = 0;
     for (int i = 0; str1[i] != '\0' || str2[i] != '\0'; i++) {
@@ -28,21 +28,21 @@ int main() {
     char string1[100] = { 0 };
     char string2[100] = { 0 };
 
-    printf("Ã¹ ¹øÂ° ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À : ");
+    printf("ì²« ë²ˆì§¸ ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
     scanf("%s", string1);
-    printf("µÎ ¹øÂ° ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À : ");
+    printf("ë‘ ë²ˆì§¸ ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
     scanf("%s", string2);
 
     int result = stringCompare(string1, string2);
 
     if (result < 0) {
-        printf("Ã¹ ¹øÂ° ¹®ÀÚ¿­ÀÌ ¸ÕÀú ¿Â´Ù.\n");
+        printf("ì²« ë²ˆì§¸ ë¬¸ìì—´ì´ ë¨¼ì € ì˜¨ë‹¤.\n");
     }
     else if (result > 0) {
-        printf("µÎ ¹øÂ° ¹®ÀÚ¿­ÀÌ ¸ÕÀú ¿Â´Ù.\n");
+        printf("ë‘ ë²ˆì§¸ ë¬¸ìì—´ì´ ë¨¼ì € ì˜¨ë‹¤.\n");
     }
     else {
-        printf("°°Àº ¹®ÀÚ¿­ÀÌ´Ù.\n");
+        printf("ê°™ì€ ë¬¸ìì—´ì´ë‹¤.\n");
     }
 
     return 0;
