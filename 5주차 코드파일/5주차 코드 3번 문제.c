@@ -27,7 +27,6 @@ int stringCompare(const char str1[], const char* str2) {
 int main() {
     char string1[100] = { 0 };
     char string2[100] = { 0 };
-
     printf("첫 번째 문자열을 입력하시오 : ");
     scanf("%s", string1);
     printf("두 번째 문자열을 입력하시오 : ");
